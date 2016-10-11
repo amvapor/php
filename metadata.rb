@@ -11,8 +11,6 @@ depends 'build-essential'
 depends 'xml'
 depends 'mysql'
 depends 'yum-epel'
-depends 'windows'
-depends 'iis'
 
 %w(amazon centos debian fedora oracle redhat scientific suse ubuntu).each do |os|
   supports os
